@@ -1,0 +1,14 @@
+ body {
+    font-family: Arial, san-serif;
+    text-align : center;
+    margin : 20px;
+ }
+
+ li {
+    margin : 10px 0;
+ }
+
+ ul {
+    list-style-type: none;
+    padding: 0;
+ }
