@@ -1,7 +1,7 @@
 function agregarTarea() {
 
     //Obtenemos el valor del campo de la tarea
-    let nuevaTareaTexto = document.getElementById("nuevaTarea").value;
+    const nuevaTareaTexto = document.getElementById("nuevaTarea").value;
 
     //Validamos que el valor no sea vacío
     if (nuevaTareaTexto === "") {
@@ -10,11 +10,11 @@ function agregarTarea() {
     }
 
     //Crear elemento en la lista
-    let nuevaTarea = document.createElement("li");
+    const nuevaTarea = document.createElement("li");
     nuevaTarea.textContent = nuevaTareaTexto + " ";
 
     //Crear botón de Eliminar
-    let botonEliminar = document.createElement("button");
+    const botonEliminar = document.createElement("button");
     botonEliminar.textContent = "Eliminar";
     botonEliminar.onclick = function() { nuevaTarea.remove();}
 
